@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-circular-dependency",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "ex1": "node main.js example1",
+    "ex2": "node main.js example2"
+  },
+  "license": "MIT"
+}
