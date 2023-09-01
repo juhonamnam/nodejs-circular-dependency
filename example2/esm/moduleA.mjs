@@ -1,10 +1,10 @@
 import { b } from "./moduleB.mjs";
 
 export const a = () => {
-  console.log("a");
+  console.log("function 'a' executed");
 };
 
 export const A = () => {
   b();
-  console.log("A");
+  console.log("function 'A' executed");
 };
