@@ -4,4 +4,4 @@ const a = 100;
 
 exports.a = a;
 
-console.log(`in module a, a == ${a} and b == ${b}`);
+console.log(`In module 1, a == ${a} and b == ${b}`);
