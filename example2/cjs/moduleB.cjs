@@ -1,4 +1,4 @@
-const { a } = require("./a.cjs");
+const { a } = require("./moduleA.cjs");
 
 exports.b = () => {
   a();

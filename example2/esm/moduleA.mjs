@@ -1,4 +1,4 @@
-import { b } from "./b.mjs";
+import { b } from "./moduleB.mjs";
 
 export const a = () => {
   console.log("a");

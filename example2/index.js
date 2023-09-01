@@ -1,9 +1,9 @@
 export const cjs = () =>
-  import("./cjs/a.cjs").then(({ A }) => {
+  import("./cjs/moduleA.cjs").then(({ A }) => {
     A();
   });
 
 export const esm = () =>
-  import("./esm/a.mjs").then(({ A }) => {
+  import("./esm/moduleA.mjs").then(({ A }) => {
     A();
   });
